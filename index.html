@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE DARK TRIAD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background">
+      <div class="video-wrapper" aria-hidden="true">
+        <video class="bg-video active" muted loop playsinline></video>
+        <video class="bg-video" muted loop playsinline></video>
+        <div class="video-fallback"></div>
+      </div>
+      <div class="grain-overlay" aria-hidden="true"></div>
+      <div class="scanline-overlay" aria-hidden="true"></div>
+    </div>
+
+    <main class="hero" role="main">
+      <header class="hero__header" aria-label="Logo et titre">
+        <div class="logo-wrapper" role="img" aria-label="THE DARK TRIAD logo">
+          <img
+            id="site-logo"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+            alt="Logo THE DARK TRIAD"
+          />
+          <span class="logo-ring" aria-hidden="true"></span>
+        </div>
+        <span class="logo-connector" aria-hidden="true"></span>
+        <button class="hero__title" id="cycle-background" aria-label="Changer la vidéo d'arrière-plan" tabindex="0">
+          THE <span> DARK </span> TRIAD
+        </button>
+      </header>
+
+      <section class="hero__body" aria-label="Description">
+        <p class="hero__description">
+          THE GATEWAY TO HIDDEN DOMINION AND THE COVERT DESIGN OF THOSE WHO WIELD IT.
+        </p>
+      </section>
+
+      <div class="divider" aria-hidden="true">
+        <span></span>
+        <span></span>
+      </div>
+
+      <section class="glyphs" aria-label="Commandes symboliques">
+        <div class="glyphs__line" aria-live="polite"></div>
+        <div class="glyphs__buttons" role="group" aria-label="Navigation cryptique">
+          <button class="glyph-button" data-text="REVELATION" aria-label="Révélation">
+            <span class="glyph-button__mask" aria-hidden="true">✶✶✶✶</span>
+            <span class="glyph-button__text">REVELATION</span>
+          </button>
+          <button class="glyph-button" data-text="INDOCTRINATION" aria-label="Endoctrination">
+            <span class="glyph-button__mask" aria-hidden="true">◇◇◇◇</span>
+            <span class="glyph-button__text">INDOCTRINATION</span>
+          </button>
+          <button class="glyph-button" data-text="COMMUNION" aria-label="Communion">
+            <span class="glyph-button__mask" aria-hidden="true">⟡⟡⟡⟡</span>
+            <span class="glyph-button__text">COMMUNION</span>
+          </button>
+          <button class="glyph-button" data-text="INITIATION" aria-label="Initiation">
+            <span class="glyph-button__mask" aria-hidden="true">✧✧✧✧</span>
+            <span class="glyph-button__text">INITIATION</span>
+          </button>
+          <button class="glyph-button" data-text="ARCHIVE" aria-label="Archive">
+            <span class="glyph-button__mask" aria-hidden="true">⟐⟐⟐⟐</span>
+            <span class="glyph-button__text">ARCHIVE</span>
+          </button>
+          <button class="glyph-button" data-text="CONTACT" aria-label="Contact">
+            <span class="glyph-button__mask" aria-hidden="true">✦✦✦✦</span>
+            <span class="glyph-button__text">CONTACT</span>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="hero__footer" role="contentinfo">
+      <p>© THE DARK TRIAD — SEEK WHAT LIES BENEATH.</p>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
